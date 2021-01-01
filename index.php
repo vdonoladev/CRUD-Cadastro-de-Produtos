@@ -3,54 +3,43 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Menu</title>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <title>Tela de Login</title>
   <link rel="stylesheet" href="css/bootstrap.css">
+  <style>
+    #tamanho {
+      width: 350px;
+      -webkit-box-shadow: 10px 10px 28px -8px rgba(194, 194, 194, 1);
+      -moz-box-shadow: 10px 10px 28px -8px rgba(194, 194, 194, 1);
+      box-shadow: 10px 10px 28px -8px rgba(194, 194, 194, 1);
+    }
+  </style>
 </head>
 
 <body>
-  <script type="text/javascript" src="js/bootstrap.js"></script>
-</body>
-<div class="container" style="margin-top: 100px;">
-  <div class="row">
 
-    <div class="col-sm-6">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Adicionar Produtos</h5>
-          <p class="card-text">Opção para adicionar produtos em nosso estoque.</p>
-          <a href="adicionar_produto.php" class="btn btn-primary">Cadastrar Produto</a>
+  <div class="container" id="tamanho" style="margin-top: 100px; border-radius: 15px; border: 2px solid #f3f3f3;">
+    <div style="padding: 10px">
+      <center>
+        <img src="imagem/cadeado.png" alt="Cadeado" width="125px" height="125px">
+      </center>
+      <form>
+        <div class="form-group">
+          <label>Usuário</label>
+          <input type="text" name="usuario" class="form-control" placeholder="Usuário" autocomplete="off" required>
         </div>
-      </div>
-    </div>
-    <div class="col-sm-6">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Lista de Produtos</h5>
-          <p class="card-text">Visualizar, editar e excluir os produtos.</p>
-          <a href="listar_produtos.php" class="btn btn-primary">Produtos</a>
+        <div class="form-group">
+          <label style="margin-top: 10px;">Senha</label>
+          <input type="password" name="usuario" class="form-control" placeholder="Senha" autocomplete="off" required>
         </div>
-      </div>
-    </div>
-
-    <div class="col-sm-6" style="margin-top: 20px;">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Adicionar Categoria</h5>
-          <p class="card-text">Opção para adicionar categoria de produtos.</p>
-          <a href="adicionar_categoria.php" class="btn btn-primary">Cadastrar Categoria</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6" style="margin-top: 20px;">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Adicionar Fornecedor</h5>
-          <p class="card-text">Opção para adicionar fornecedores.</p>
-          <a href="adicionar_fornecedor.php" class="btn btn-primary">Cadastrar Fornecedores</a>
-        </div>
+      </form>
+      <div style="text-align: right;">
+        <button type="submit" class="btn btn-sm btn-success" style="margin-top: 15px;">Entrar</button>
       </div>
     </div>
   </div>
-</div>
+
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
 
 </html>
