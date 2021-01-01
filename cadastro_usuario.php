@@ -10,8 +10,11 @@
 <body>
 
   <div class="container" style="width: 400px; margin-top: 40px;">
+    <div style="text-align: right;">
+      <a href="menu.php" role="button" class="btn btn-sm btn-primary">Voltar</a>
+    </div>
     <h4>Cadastro de Usuário</h4>
-    <form>
+    <form action="_insert_usuario.php" method="post">
       <div class="form-group">
         <label>Nome do Usuário</label>
         <input type="text" name="nomeusuario" class="form-control" required autocomplete="off" placeholder="Nome Completo">
