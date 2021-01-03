@@ -1,38 +1,36 @@
 # CRUD - Cadastro de Produtos
 
-## 📖 About
-CRUD Cadastro de Produtos is a project developed to control the stock of companies that work with products. Users can register in the system, register their products, categories and their suppliers.
+## 📖 Sobre
+O CRUD - Cadastro de Produtos é um projeto desenvolvido para controle de estoque de empresas que trabalham com produtos, os usuários podem se cadastrar no sistema, cadastrar seus produtos, categorias e seus fornecedores.
 
 ---
 
-## 🚀 Technologies and tools used
+## 🚀 Tecnologias e ferramentas utilizadas
 - PHP
 - JavaScript
 - Bootstrap
-- DataTables
-- jQuery
 - XAMPP
 - MySQL
 
 ---
 
-## 🔧 How to run the project
-- To run this repository, download it to your machine or from a `Git Clone`;
+## 🔧 Como executar o projeto
+- Para executar este repositório, baixe-o para sua máquina ou faça um `Git Clone`;
 
-- Install and start XAMPP (if using Windows) or LAMP (if using Linux);
+- Instale e inicie o XAMPP (se estiver usando o Windows) ou o LAMPP (se estiver usando o Linux);
 
-- Place the PHP files in the “htdocs” folder inside the “XAMMP” or "LAMP" folder;
+- Coloque os arquivos PHP na pasta "htdocs" dentro da pasta "XAMPP" ou "LAMPP";
 
-- Import the database available in the "MySQL" folder;
+- Importar o banco de dados disponível na pasta "MySQL";
 
-- In your browser, access "http://localhost/".
-
----
-
-## 📝 License
-
-The project is under the MIT license. To learn more, access the file [LICENSE](https://github.com/vdonoladev/CRUD-Cadastro-de-Produtos/blob/main/LICENSE).
+- No seu navegador, acesse "http://localhost/".
 
 ---
 
-**Developed with ❤️ by [Víctor Donola Ferreira](https://github.com/vdonoladev/).**
+## 📝 Licença
+
+O projeto está sob a licença do MIT. Para saber mais, acesse o arquivo [LICENSE](https://github.com/vdonoladev/CRUD-Cadastro-de-Produtos/blob/main/LICENSE).
+
+---
+
+**Desenvolvido com ❤️ por [Víctor Donola Ferreira](https://github.com/vdonoladev/).**
